@@ -1,0 +1,28 @@
+@import '../../style/variables.scss';
+
+.side-menu-item {
+  text-transform: uppercase;
+  color: $light-text-color;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0.5;
+  display: flex;
+  align-items: center;
+  padding: 8px 0px;
+
+  img {
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+  }
+
+  &:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: $light-text-color;
+  }
+
+  &.active {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,23 @@
+@import '../../style/variables.scss';
+
+.bitcoin-price-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .price-notification {
+    margin-bottom: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    color: $theme-color;
+    text-align: center;
+  }
+
+  .buttons {
+    .substrata-button:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}

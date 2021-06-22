@@ -1,0 +1,30 @@
+@import '../../style/variables.scss';
+
+.my-wallet-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .price-notification, .question {
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    color: $theme-color;
+    text-align: center;
+  }
+
+  .question {
+    margin-bottom: 50px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+
+    .substrata-button:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}

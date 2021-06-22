@@ -1,0 +1,9 @@
+@import '../../style/variables.scss';
+
+.history-container {
+  width: 258px;
+  background-color: $theme-gray;
+  max-height: calc(100vh - 68px);
+  overflow: scroll;
+  overflow-x: hidden;
+}

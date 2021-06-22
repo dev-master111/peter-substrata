@@ -1,0 +1,33 @@
+@import '../../style/variables.scss';
+
+.sidebar-container {
+  width: 230px;
+  background-color: $theme-color;
+  color: $light-text-color;
+
+  .logo-view {
+    margin-bottom: 40px;
+    margin-top: 16px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 32px;
+      height: 32px;
+      margin-right: 12px;
+    }
+
+    h1 {
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+  }
+
+  .items-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+  }
+}

@@ -1,0 +1,24 @@
+@import './variables.scss';
+
+.main-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  .view-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    .content-view {
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      flex: 1;
+
+      .page-container {
+        flex: 1;
+      }
+    }
+  }
+}

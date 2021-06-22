@@ -1,0 +1,18 @@
+.history-item {
+  height: 80px;
+  border-bottom: 1px solid black;
+  position: relative;
+  padding-left: 32px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: #29335C;
+  font-weight: bold;
+
+  .time {
+    position: absolute;
+    left: 8px;
+    top: 6px;
+    font-weight: 600;
+  }
+}
