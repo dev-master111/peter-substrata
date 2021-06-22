@@ -8,8 +8,12 @@
 ##### https://yarnpkg.com/getting-started/install
 
 ## Installation
-`yarn && npm start` or `npm install && npm start`
+`yarn` or `npm install`
 
+## Run
+`yarn start` or `npm run start`
 
-## Build & run
+##### After "yarn start" or "npm run start", please open http://localhost:3000 on your browser
+
+## Build
 `yarn build & serve -s build`
